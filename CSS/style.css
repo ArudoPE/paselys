@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+footer,header{
+    position: fixed;
+    background-color: white;
+    text-align: center;
+}
+header{
+
+    width: 100%;
+    padding: 20px;
+    margin-bottom:10px;
+    box-shadow: rgba(0, 0, 0, 0.31) 0px 2px 5px 0px;
+}
+footer{
+    left:0;
+    bottom:0;
+    width: 100%;
+    border-top: 1px solid rgb(226, 217, 217);
+}
