@@ -3,21 +3,33 @@
     padding: 0;
     margin: 0;
 }
+html{
+    --top-spacing: 65px;
+}
+body{
+    scroll-padding-top: var(--top-spacing);
+    margin: var(--top-spacing) auto;
+    padding: 0 10px;
+}
 footer,header{
     position: fixed;
     background-color: white;
     text-align: center;
+    width: 100%;
 }
 header{
-
-    width: 100%;
-    padding: 20px;
-    margin-bottom:10px;
     box-shadow: rgba(0, 0, 0, 0.31) 0px 2px 5px 0px;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+main{
+
 }
 footer{
-    left:0;
-    bottom:0;
-    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding:20px;
     border-top: 1px solid rgb(226, 217, 217);
+    font-size: small;
 }
