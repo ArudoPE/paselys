@@ -6,6 +6,7 @@
     <meta name="description" content="Página web de la agencia de viajes Paselys">
     <meta name="robots" content="index,follow">
     <title>Agencia de Viajes | Paselys</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
@@ -13,10 +14,20 @@
 <body>
     <header>
         <nav>
-            <p>Header</p>
+            <a class=header-nav__logo href="https://arudope.github.io/paselys/"><img src="img/icon.png" alt="Paselys logo"/>
+            </a>
+            <ul>
+                <li class=header-nav__item><a href="#">Sobre nosotros</a></li>
+                <li class=header-nav__item><a href="#">Venta de pasajes aéreos</a></li>
+                <li class=header-nav__item><a href="#">Asesoría para visa</a></li>
+                <li class=header-nav__item><a href="#">Contáctanos</a></li>
+            </ul>
         </nav>
     </header>
     <main>
+        <section class=main-section__item>
+            <video class=main-section__video preload="auto" loop autoplay src="/video/main_video.mp4"></video>
+        </section>
         <p>Aeiou</p>
         <p>Hi world!</p>
         <p>Hi world!</p>
@@ -43,7 +54,7 @@
         <p>Aeiou</p>
     </main>
     <footer>
-        <p>Maked with ❤️ by ArudoPE</p>
+        <p class=footer__text>Maked with ❤️ by ArudoPE</p>
     </footer>
 </body>
 </html>
