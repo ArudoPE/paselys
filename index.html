@@ -8,28 +8,31 @@
     <title>Agencia de Viajes | Paselys</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!-- <link rel="stylesheet" href="./CSS/normalize.css"> -->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a class=header-nav__logo href="https://arudope.github.io/paselys/"><img src="img/icon.png" alt="Paselys logo"/>
+    <header class="header">
+        <div class="header-logo">
+            <a class="header-logo__a" href="https://arudope.github.io/paselys/"><img src="img/icon.png" alt="Paselys logo"/>
             </a>
+        </div>
+        <nav class="nav">
             <ul>
-                <li class=header-nav__item><a href="#">Sobre nosotros</a></li>
-                <li class=header-nav__item><a href="#">Venta de pasajes aéreos</a></li>
-                <li class=header-nav__item><a href="#">Asesoría para visa</a></li>
-                <li class=header-nav__item><a href="#">Contáctanos</a></li>
+                <li class="header-nav__item"><a href="#">Sobre nosotros</a></li>
+                <li class="header-nav__item"><a href="#">Venta de pasajes aéreos</a></li>
+                <li class="header-nav__item"><a href="#">Asesoría para visa</a></li>
+                <li class="header-nav__item"><a href="#">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class=main-section__item>
-            <video class=main-section__video preload="auto" autoplay loop muted playsinline>
+        <section class="main-section__videoContainer">
+            <video class="main-section__video" preload="auto" autoplay loop muted playsinline>
                 <source type="video/mp4" src="video/main_video.mp4"/>
             </video>
         </section>
+        <section class="main-section__middle">
         <p>Aeiou</p>
         <p>Hi world!</p>
         <p>Hi world!</p>
@@ -41,10 +44,10 @@
         <p>Hi world!</p>
         <p>Hi world!</p>
         <p>Hi world!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac fermentum orci. Ut pharetra, massa ut tempor scelerisque, neque elit tincidunt augue, vitae consectetur dolor sem nec elit. Nullam scelerisque libero nunc, eu tempus tortor fringilla ac. Maecenas fringilla dolor nisi, in fringilla nunc iaculis sed. Donec at tempus tellus. Etiam vitae vestibulum lectus, et aliquet quam. Donec eget tortor eu lorem gravida blandit. Nam ante leo, lacinia tempus nunc non, mollis pellentesque lacus. Fusce diam augue, eleifend vitae lacinia vel, scelerisque vel mauris. Maecenas porttitor consequat odio. Nulla facilisi. Donec ut sapien lorem. Phasellus ac purus at lacus placerat cursus. Praesent a lacinia enim. Fusce tempus justo ut urna dapibus, et dictum ipsum tempor.            Integer egestas mollis sem sed vehicula. Nullam nec dolor malesuada, hendrerit tortor eget, facilisis sapien. Etiam eu leo arcu. In at volutpat mi. Nulla sed elit rhoncus, ultrices turpis in, euismod nunc. Duis nec laoreet diam. In cursus lacinia nibh et pellentesque. Sed auctor metus sed nisi iaculis hendrerit. Nam id urna tincidunt, pulvinar diam at, facilisis turpis. Suspendisse at tellus vitae leo pellentesque porta.
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vel velit sem. Donec accumsan dictum consectetur. Aenean volutpat rutrum elit et gravida. Maecenas eget est non mi porttitor lacinia porttitor vel diam. Donec ultrices placerat pharetra. In magna sem, suscipit porta enim a, molestie hendrerit quam. Quisque diam lorem, scelerisque at eros a, vulputate ultricies diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sagittis placerat molestie. Maecenas cursus mauris lobortis diam maximus, ut luctus nisi viverra. Nulla facilisi. Ut egestas aliquam condimentum. Ut scelerisque laoreet rhoncus. Maecenas vitae nisl nunc.
-            Aliquam erat volutpat. Cras vel turpis nec enim interdum porttitor et id lectus. Proin sodales fringilla nisi. Vestibulum hendrerit leo et enim ultricies scelerisque. Nam rutrum leo eu dolor tristique porttitor. Nam viverra vulputate tellus eu molestie. Cras vel consequat sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur et luctus quam, at maximus augue. Sed non mauris ligula.
-            Curabitur purus lacus, gravida ac purus vel, finibus rutrum nunc. Vivamus dapibus mattis metus in iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean tempus tempor tempus. Proin a orci quis lectus porttitor rutrum iaculis lobortis diam. Sed enim felis, varius sit amet erat non, placerat pulvinar leo. Vestibulum congue ornare tellus, sed mattis sem mattis in.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque corporis quae consectetur possimus itaque recusandae minus! Numquam, perferendis distinctio quia, dolorum ducimus voluptas quasi placeat, nam dolor eius excepturi rem.
+        Maiores, iusto nulla. Repudiandae vel doloribus eum unde eligendi porro laboriosam veritatis dolor ducimus amet impedit voluptas mollitia molestiae illum, sapiente excepturi fuga distinctio corporis possimus. Cumque temporibus numquam officiis.
+        Quo non maxime dignissimos placeat magni distinctio sit ipsum esse, expedita, sint laudantium assumenda hic eveniet deleniti recusandae delectus nihil amet. Nam atque voluptatibus consectetur temporibus nulla unde cumque officiis.
+        Fugit dicta amet molestias provident consequuntur quasi cumque quis placeat ipsam possimus eos animi libero dolore voluptate quam sequi rerum assumenda, consectetur, tempora voluptates praesentium quos corrupti odit? Adipisci, eos?</p>
         <p>Hi world!</p>
         <p>Hi world!</p>
         <p>Hi world!</p>
@@ -54,9 +57,12 @@
         <p>Hi world!</p>
         <p>Hi world!</p>
         <p>Aeiou</p>
+        </section>
     </main>
-    <footer>
-        <p class=footer__text>Maked with ❤️ by ArudoPE</p>
+    <footer class="footer">
+        <div class="footer__row">
+            <p class="footer__text">Made with ❤️ by ArudoPE</p>
+        </div>
     </footer>
 </body>
 </html>
