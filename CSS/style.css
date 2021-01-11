@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 62.5%;
+}
+:root {
+    --header-text-size: 1.6rem;
+}
+@media (max-width: 800px) {
+    :root {
+        --header-text-size: 1.2rem;
+    }
+}
+.body-container {
+    display: grid;
+}
+.header {
+    background-color: pink;
+    height: 200px;
+    width: 100vw;
+}
+.main {
+    background-color: aquamarine;
+    height: 500px;
+    width: 100vw;
+}
+.image-gallery {
+    display: flex;
+}
+.box {
+    background-color: grey;
+}
+.footer {
+    background-color: bisque;
+    height: 100px;
+    width: 100vw;
+}
