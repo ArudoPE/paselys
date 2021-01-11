@@ -126,16 +126,16 @@ body {
     font-size: var(--main-text-font-size);
 }
 .img-container-one{
-    background-image: url("/img/first_background.svg");
+    background-image: url("../img/first_background.svg");
 }
 .img-container-two{
-    background-image: url("/img/2nd-main-image.jpg");
+    background-image: url("../img/2nd-main-image.jpg");
 }
 .img-container-three{
-    background-image: url("/img/3rd-main-image.jpg");
+    background-image: url("../img/3rd-main-image.jpg");
 }
 .img-container-four{
-    background-image: url("/img/4rd-main-image.jpg");
+    background-image: url("../img/4rd-main-image.jpg");
 }
 .main-rrss-title {
     color: white;
